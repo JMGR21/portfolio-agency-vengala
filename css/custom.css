@@ -1,0 +1,33 @@
+.bg-banner {
+    position: relative;
+}
+
+.bg-banner::before{
+    background-color: #5295C1;
+    opacity: .8;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.img-logo {
+    width: 200px;
+}
+
+.footer {
+    border-top: 1px solid #E7E7E7;
+}
+
+.underline::after {
+    background: #357FB4 !important;
+}
+
+.nav-link.active {
+    color: #357FB4 !important;
+}
+
+.nav-link:hover {
+    color: #357FB4 !important;
+}
